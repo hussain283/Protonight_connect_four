@@ -1,2 +1,8 @@
-%h1 Home#index
-%p Find me in app/views/home/index.html.haml
+%h1 Welcome To Connect 4
+.grid
+  - 7.times do
+    .column
+      - 7.times do
+        .cell
+          .cell_container
+            .token_container{ class: 'unfilled' }
